@@ -12,6 +12,7 @@ import Link from "next/link";
 
 import SearchBar from "./SearchBar";
 import CartIcon from "./CartIcon";
+import loginPage from "@/app/auth/login/page";
 
 import {
   HiOutlineHeart,
@@ -42,7 +43,7 @@ export default function Navbar() {
 
         {/* Account */}
         <Link
-          href="/login"
+          href="/auth/login"
           aria-label="My Account"
           className="text-gray-700 hover:text-blue-600"
         >
